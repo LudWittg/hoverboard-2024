@@ -1,4 +1,4 @@
-# GDG DevFest Pisa 2023 Website 🌎
+# GDG DevFest Pisa 2024 Website 🌎
 
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/badge/Twitter-@gdgPisa-blue.svg?style=flat)](http://twitter.com/gdgPisa)
 
