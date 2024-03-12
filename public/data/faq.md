@@ -38,7 +38,7 @@ No, as written in the workshop description, you need a DevFest ticket to join al
 
 ### I registered on meetup.com. Is that valid as a ticket?
 
-No, the only valid tickets for eventbrite are the one [available on the GDG platform](https://gdg.community.dev/events/details/google-gdg-pisa-presents-gdg-iwd-devfest-pisa-2023/).
+No, the only valid tickets for eventbrite are the one [available on the GDG platform](TODO).
 
 ### What should I carry on to the conference?
 
@@ -55,11 +55,3 @@ Yes, we have some swags for all the participants + some giveaways to give as a r
 ### Are the sessions recorded?
 
 No, we are not recording/live-streaming the sessions.
-
-### What is the Job Board? -->
-
-The job board is a pin board where you're free to post your job openings. Rules for the Job board are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-board).
-
-### What is the Beer Party? -->
-
-The beer party is a party event we organized for the DevFest Pisa attendees. You're all invited. It will be at "Lo Spaventapasseri - The Scare Crow", all the details are here: [There Will Be No DevFest Without A Networking Beer!](/blog/there-will-be-no-devfest-without-networking-beer/)
