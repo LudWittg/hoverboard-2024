@@ -1,8 +1,6 @@
 Make sure you don't get lost. Here you can find a map of the venue's buildings.
 
-Please note that DevFest Pisa 2024 rooms are in **two different buildings**:
-
-## Building E
+Please note that DevFest Pisa 2024 rooms are in **Building E**:
 
 * Aula Magna (Main Track)
 * Aula PS1
