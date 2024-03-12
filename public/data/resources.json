@@ -141,15 +141,15 @@
       },
       "days": {
         "label": "Speakers",
-        "number": "45+"
+        "number": "20+"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "45+"
+        "number": "20+"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "5"
+        "number": "3"
       }
     }
   },
