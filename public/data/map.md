@@ -1,6 +1,6 @@
-Make sure you don't get lost. Here you can find a map of the venue's buildings. 
+Make sure you don't get lost. Here you can find a map of the venue's buildings.
 
-Please note that DevFest Pisa 2023 rooms are in **two different buildings**:
+Please note that DevFest Pisa 2024 rooms are in **two different buildings**:
 
 ## Building E
 
@@ -8,9 +8,5 @@ Please note that DevFest Pisa 2023 rooms are in **two different buildings**:
 * Aula PS1
 * Aula PS4 (IWD Track)
 
-## Building B
-
-* Aula B
-* Aula C (Workshops)
-
+<!-- TODO Update map graphics -->
 ![venue map](/images/posts/venuemap.jpg)

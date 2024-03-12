@@ -1,9 +1,9 @@
 {
-  "title": "GDG Pisa DevFest 2023",
+  "title": "GDG Pisa DevFest 2024",
   "description": "Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!",
   "image": "/images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "April 1, 2023",
+  "dates": "June 1, 2024",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -62,7 +62,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://2023.devfest.gdgpisa.it/team",
+          "url": "https://2024.devfest.gdgpisa.it/team",
           "newTab": true
         }
       ]
@@ -121,16 +121,16 @@
     "contacts": []
   },
   "aboutBlock": {
-    "title": "DevFest Pisa 2023 is over!",
+    "title": "DevFest Pisa 2024 is over!",
     "callToAction": {
       "featuredSessions": {
         "description": "After 3 years, GDG Pisa is happy to announce that DevFest Pisa is coming back in town! You can enjoy a one-day conference all about Android, Web, Cloud and Google technologies in the heart of Tuscany.",
         "label": "READ THE FULL ANNOUNCEMENT",
-        "link": "https://2023.devfest.gdgpisa.it/blog/c4p"
+        "link": "https://2024.devfest.gdgpisa.it/blog/c4p"
       },
       "howItWas": {
         "description": "The conference was a blast! Check out the video recap and make sure you don't miss it next year!",
-        "label": "DevFest Pisa 2023 Video Recap",
+        "label": "DevFest Pisa 2024 Video Recap",
         "youtubeId": "HOvwmfNEw1I"
       }
     },
@@ -214,7 +214,7 @@
   },
   "galleryBlock": {
     "title": "#devfestpisa highlights",
-    "description": "After two amazing DevFest Pisa, we're looking forward to a more amazing DevFest in 2023!",
+    "description": "After two amazing DevFest Pisa, we're looking forward to a more amazing DevFest in 2024!",
     "callToAction": {
       "label": "See all photos",
       "link": "https://photos.app.goo.gl/cRcVqhNuxt4zwDVQ9"

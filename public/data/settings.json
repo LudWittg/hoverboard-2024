@@ -5,8 +5,8 @@
     "blog": "https://gdgpisa.it/blog/",
     "url": "https://gdgpisa.it"
   },
-  "startDate": "2023-04-013T08:00:00+01:00",
-  "endDate": "2023-04-01T22:00:00+01:00",
+  "startDate": "2024-06-013T08:00:00+01:00",
+  "endDate": "2024-06-01T22:00:00+01:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#34a853",
@@ -112,7 +112,7 @@
     "faq": {
       "title": "FAQs",
       "metaDescription": "Find you answer right here!",
-      "description": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2023",
+      "description": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2024",
       "background": {
         "color": "#fff"
       },

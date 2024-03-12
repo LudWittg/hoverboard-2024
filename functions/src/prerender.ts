@@ -18,7 +18,7 @@ const staticHtml = `
     <meta content="event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev" name="keywords">
     <meta content="GDG Pisa" name="author">
     <meta content="Project Hoverboard" name="generator">
-    <title>GDG Pisa DevFest 2023</title>
+    <title>GDG Pisa DevFest 2024</title>
     <!-- Config from compilation step -->
     <meta content="https://devfest.gdgpisa.it/" name="config-url">
     <meta content="/" name="config-basepath">
@@ -32,12 +32,12 @@ const staticHtml = `
     <!-- Add to homescreen for Chrome on Android -->
     <meta content="yes" name="mobile-web-app-capable">
     <!-- fallback for manifest.json -->
-    <meta content="GDG Pisa DevFest 2023" name="application-name">
+    <meta content="GDG Pisa DevFest 2024" name="application-name">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-    <meta content="GDG Pisa DevFest 2023" name="apple-mobile-web-app-title">
+    <meta content="GDG Pisa DevFest 2024" name="apple-mobile-web-app-title">
 
     <!-- Homescreen icons. -->
     <link href="images/manifest/icon-48.png" rel="apple-touch-icon">
@@ -52,8 +52,8 @@ const staticHtml = `
     <meta content="no" name="msapplication-tap-highlight">
 
     <!-- Facebook sharing meta data -->
-    <meta content="GDG Pisa DevFest 2023" property="og:title">
-    <meta content="GDG Pisa DevFest 2023" property="og:site_name">
+    <meta content="GDG Pisa DevFest 2024" property="og:title">
+    <meta content="GDG Pisa DevFest 2024" property="og:site_name">
     <meta content="website" property="og:type">
     <meta content="https://devfest.gdgpisa.it/" property="og:url">
     <meta content="Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!" property="og:description">
@@ -64,16 +64,16 @@ const staticHtml = `
     <!-- Twitter meta data -->
     <meta content="summary_large_image" name="twitter:card">
     <meta content="@gdgpisa" name="twitter:creator">
-    <meta content="GDG Pisa DevFest 2023" name="twitter:title">
+    <meta content="GDG Pisa DevFest 2024" name="twitter:title">
     <meta content="Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!" name="twitter:description">
     <meta content="https://devfest.gdgpisa.it/images/social-share.jpg" name="twitter:image">
     <meta name="twitter:label1" value="Location">
     <meta name="twitter:data1" value="Polo Fibonacci">
     <meta name="twitter:label2" value="Date">
-    <meta name="twitter:data2" value="April 1st 2023">
+    <meta name="twitter:data2" value="April 1st 2024">
   </head>
   <body>
-    <h1>GDG Pisa DevFest 2023</h1>
+    <h1>GDG Pisa DevFest 2024</h1>
   </body>
 </html>
 `;
@@ -168,10 +168,10 @@ app.get('*', async (req, res) => {
           // console.log('### og:image updated to ', data.photoUrl);
         }
         if (data.name) {
-          updateOgTitle($, `${data.name} - Speaker at GDG Pisa DevFest 2023`);
+          updateOgTitle($, `${data.name} - Speaker at GDG Pisa DevFest 2024`);
           // console.log(
           // '### og:title updated to ',
-          // `${data.name} - Speaker at GDG Pisa DevFest 2023`
+          // `${data.name} - Speaker at GDG Pisa DevFest 2024`
           // );
         }
         if (data.bio) {
@@ -189,10 +189,10 @@ app.get('*', async (req, res) => {
           // console.log('### og:image updated to ', data.image);
         }
         if (data.title) {
-          updateOgTitle($, `${data.title} - Session at GDG Pisa DevFest 2023`);
+          updateOgTitle($, `${data.title} - Session at GDG Pisa DevFest 2024`);
           // console.log(
           // '### og:title updated to ',
-          // `${data.title} - Session at GDG Pisa DevFest 2023`
+          // `${data.title} - Session at GDG Pisa DevFest 2024`
           // );
         }
         if (data.description) {
@@ -202,25 +202,25 @@ app.get('*', async (req, res) => {
         }
       }
     } else if (requestPath.startsWith('/schedule')) {
-      updateOgTitle($, 'Schedule - GDG Pisa DevFest 2023');
-      updateOgDescription($, 'Choose your sessions to visit at DevFest Pisa 2023');
+      updateOgTitle($, 'Schedule - GDG Pisa DevFest 2024');
+      updateOgDescription($, 'Choose your sessions to visit at DevFest Pisa 2024');
     } else if (requestPath.startsWith('/team')) {
-      updateOgTitle($, 'Team - GDG Pisa DevFest 2023');
+      updateOgTitle($, 'Team - GDG Pisa DevFest 2024');
       updateOgDescription($, 'Get more info about organizers');
     } else if (requestPath.startsWith('/location')) {
-      updateOgTitle($, 'Location - GDG Pisa DevFest 2023');
-      updateOgDescription($, 'Directions and address of the venue for DevFest Pisa 2023');
+      updateOgTitle($, 'Location - GDG Pisa DevFest 2024');
+      updateOgDescription($, 'Directions and address of the venue for DevFest Pisa 2024');
     } else if (requestPath.startsWith('/coc')) {
-      updateOgTitle($, 'Code of Conduct - GDG Pisa DevFest 2023');
+      updateOgTitle($, 'Code of Conduct - GDG Pisa DevFest 2024');
       updateOgDescription(
         $,
         'Learn more about our expectations for all those who participate in our community'
       );
     } else if (requestPath.startsWith('/faq')) {
-      updateOgTitle($, 'FAQ - GDG Pisa DevFest 2023');
+      updateOgTitle($, 'FAQ - GDG Pisa DevFest 2024');
       updateOgDescription(
         $,
-        'All the answers to the Frequently Asked Questions about DevFest Pisa 2023'
+        'All the answers to the Frequently Asked Questions about DevFest Pisa 2024'
       );
     }
 

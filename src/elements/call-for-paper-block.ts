@@ -41,6 +41,7 @@ export class CallForPaperBlock extends PolymerElement {
         }
       </style>
 
+      <!-- TODO
       <div class="container container-narrow">
         <h1 class="container-title">It's a Wrap 💚</h1>
         <p>
@@ -54,7 +55,7 @@ export class CallForPaperBlock extends PolymerElement {
             </paper-button>
           </a>
         </div>
-      </div>
+      </div> -->
     `;
   }
 }
