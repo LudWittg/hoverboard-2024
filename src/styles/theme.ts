@@ -2,10 +2,10 @@ import { css } from 'lit';
 
 export const theme = css`
   :host {
-    --dark-primary-color: #24753a;
-    --default-primary-color: #34a853;
+    --dark-primary-color: #a61e1e; 
+    --default-primary-color: #c62828;
     --focused-color: #311b92;
-    --light-primary-color: #34a853;
+    --light-primary-color: #c62828;
     --text-primary-color: #fff;
     --accent-color: #ff5252;
     --primary-background-color: #fff;
@@ -30,16 +30,16 @@ export const theme = css`
     --border-radius: 4px;
     --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     --box-shadow-hover: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    --box-shadow-primary-color: 0 10px 20px rgba(52, 136, 69, 0.19),
-      0 6px 6px rgba(52, 136, 69, 0.23);
-    --box-shadow-primary-color-hover: 0 14px 28px rgba(52, 136, 69, 0.25),
-      0 10px 10px rgba(52, 136, 69, 0.22);
+    --box-shadow-primary-color: 0 10px 20px rgba(192, 24, 24, 0.19),
+      0 6px 6px rgba(192, 24, 24, 0.23);
+    --box-shadow-primary-color-hover: 0 14px 28px rgba(192, 48, 48, 0.25),
+      0 10px 10px rgba(192, 24, 24, 0.22);
     --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial,
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --font-family-highlight: 'Product Sans', roboto, arial, sans-serif, -apple-system;
     --max-container-width: 1280px;
-    --primary-color-transparent: rgb(52 168 83 / 10%);
-    --primary-color-light: rgb(52 168 83 / 80%);
+    --primary-color-transparent: rgba(168, 52, 52, 0.1);
+    --primary-color-light: rgba(194, 24, 24, 0.8);
     --primary-color-white: #ede7f6;
 
     /* Labels */

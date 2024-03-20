@@ -26,7 +26,7 @@ const staticHtml = `
 
     <link href="https://devfest.gdgpisa.it/" rel="canonical">
     <link href="images/favicon.ico" rel="icon">
-    <meta content="#34a853" name="theme-color">
+    <meta content="#c62828" name="theme-color">
     <link href="manifest.webmanifest" rel="manifest">
 
     <!-- Add to homescreen for Chrome on Android -->

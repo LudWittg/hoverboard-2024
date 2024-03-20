@@ -106,7 +106,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
         </paper-button>
 
-        <a href="https://docs.google.com/document/d/1AuqmqwsetjDQnbc874YiliseQBG28wMtkniUK-7SckA/edit?usp=sharing" 
+        <a href="https://docs.google.com/document/d/1rEscIYsEs-jvRNjkRsIL9vfby5vFG8clyhjU6IYZv_I/edit?usp=sharing" 
         target="_blank" rel="noopener noreferrer">
           <paper-button class="cta-button animated icon-right">
             <span>[[partnersBlock.proposalen]]</span>
@@ -114,7 +114,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           </paper-button>
         </a>
         
-        <a href="https://docs.google.com/document/d/1POo8P5eO-uLcf2svUP_EMIHT-Mz1VecbOWxXwNAzPNo/edit?usp=sharing" 
+        <a href="https://docs.google.com/document/d/1sDPvsMTudYwxOGNHQha5DEvgNg_5OcOxwJLnqoRh5t8/edit#heading=h.y1mhc3va5hes" 
         target="_blank" rel="noopener noreferrer">
           <paper-button class="cta-button animated icon-right">
             <span>[[partnersBlock.proposalit]]</span>
