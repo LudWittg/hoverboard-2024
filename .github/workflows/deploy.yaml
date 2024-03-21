@@ -13,10 +13,11 @@ jobs:
           node-version: 18
       - name: Create temp serviceAccount.json
         run: echo "{}" > serviceAccount.json
+      - id: "auth"
+        name: "Authenticate to Google Cloud"
+        uses: "google-github-actions/auth@v0.4.0"
+        with:
+          credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
       - run: npm ci
       - run: npm run build
-      - uses: w9jds/firebase-action@master
-        with:
-          args: deploy --debug
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - run: npm run deploy
