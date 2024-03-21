@@ -19,5 +19,4 @@ jobs:
         with:
           credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
       - run: npm ci
-      - run: npm run build
       - run: npm run deploy
