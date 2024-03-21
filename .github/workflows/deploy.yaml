@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Create temp serviceAccount.json
+        run: echo "{}" > serviceAccount.json
       - run: npm ci
       - run: npm run build
       - uses: w9jds/firebase-action@master
