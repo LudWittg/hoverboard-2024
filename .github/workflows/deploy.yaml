@@ -19,5 +19,4 @@ jobs:
         with:
           args: deploy --debug
         env:
-          PROJECT_ID: devfest-pisa24-v2
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
