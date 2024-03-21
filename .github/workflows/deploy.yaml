@@ -19,5 +19,5 @@ jobs:
         with:
           args: deploy --debug
         env:
-          PROJECT_ID: devfest-pisa24
+          PROJECT_ID: devfest-pisa24-v2
           GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEVFEST_PISA24 }}

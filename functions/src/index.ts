@@ -17,14 +17,14 @@ import { scheduleNotifications } from './schedule-notifications.js';
 // - "strict": true,
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDtUiHI2_UEKpQ-7oes6yV_UxDv8v85Wnk',
-  authDomain: 'devfest-pisa23.firebaseapp.com',
-  databaseURL: 'https://devfest-pisa23-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'devfest-pisa23',
-  storageBucket: 'devfest-pisa23.appspot.com',
-  messagingSenderId: '570358773949',
-  appId: '1:570358773949:web:addadc7108271e95709fd4',
-  measurementId: 'G-P9W7BKE2LV',
+  apiKey: 'AIzaSyAZnfT3Ct7J38vSdwfLpByd-fpOj9Oy8ew',
+  authDomain: 'devfest-pisa24.firebaseapp.com',
+  databaseURL: 'https://devfest-pisa-24-v2-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'devfest-pisa24',
+  storageBucket: 'devfest-pisa24.appspot.com',
+  messagingSenderId: '926979139472',
+  appId: '1:926979139472:web:baa04d68db000aa6477515',
+  measurementId: 'G-81ZM9D8RDF',
 };
 
 initializeApp(firebaseConfig);
