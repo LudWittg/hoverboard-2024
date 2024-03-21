@@ -15,7 +15,7 @@ jobs:
         run: echo "{}" > serviceAccount.json
       - run: npm ci
       - run: npm run build
-      - uses: docker://w9jds/firebase-action:master
+      - uses: w9jds/firebase-action@master
         with:
           args: deploy --debug
         env:
