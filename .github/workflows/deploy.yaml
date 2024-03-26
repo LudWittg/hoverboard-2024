@@ -13,15 +13,13 @@ jobs:
           node-version: 18
       - name: Install Dependencies
         run: npm install
-      - name: Create temp serviceAccount.json
-        run: echo "{}" > serviceAccount.json
+      - name: Create serviceAccount.json
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: echo "$FIREBASE_SERVICE_ACCOUNT" > serviceAccount.json
       - name: Run npm ci
         run: npm ci
       - name: Run npm run build
         run: npm run build
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      - name: Run npm run deploy
+        run: npm run deploy
