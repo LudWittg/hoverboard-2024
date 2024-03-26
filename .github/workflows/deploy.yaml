@@ -23,3 +23,5 @@ jobs:
         run: npm run build
       - name: Run npm run deploy
         run: npm run deploy
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
