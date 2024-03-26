@@ -1,6 +1,9 @@
 # Backup tools
 /backup
 
+# IDE
+.fleet/
+
 # Logs
 logs
 *.log
