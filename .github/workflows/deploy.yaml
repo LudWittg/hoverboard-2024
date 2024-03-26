@@ -17,6 +17,8 @@ jobs:
         run: echo "{}" > serviceAccount.json
       - name: Run npm ci
         run: npm ci
+      - name: Run npm run build
+        run: npm run build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:

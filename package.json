@@ -5,7 +5,7 @@
   "description": "Conference website template",
   "engines": {
     "node": "18",
-    "npm": "9"
+    "npm": ">=9"
   },
   "scripts": {
     "build": "npm run clean && NODE_ENV=production rollup --config rollup.config.ts --configPlugin typescript",
