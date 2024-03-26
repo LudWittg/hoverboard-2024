@@ -11,12 +11,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Install Dependencies
+        run: yarn
       - name: Create temp serviceAccount.json
         run: echo "{}" > serviceAccount.json
-      - id: "auth"
-        name: "Authenticate to Google Cloud"
-        uses: "google-github-actions/auth@v0.4.0"
+      - name: Run npm ci
+        run: npm ci
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
         with:
-          credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
-      - run: npm ci
-      - run: npm run deploy
+          args: deploy --only hosting
+        env:
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
