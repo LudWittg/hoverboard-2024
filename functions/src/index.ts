@@ -18,14 +18,15 @@ import { scheduleNotifications } from './schedule-notifications.js';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAZnfT3Ct7J38vSdwfLpByd-fpOj9Oy8ew',
-  authDomain: 'devfest-pisa24.firebaseapp.com',
+  authDomain: 'devfest-pisa-24-v2.firebaseapp.com',
   databaseURL: 'https://devfest-pisa-24-v2-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'devfest-pisa24',
-  storageBucket: 'devfest-pisa24.appspot.com',
+  projectId: 'devfest-pisa-24-v2',
+  storageBucket: 'devfest-pisa-24-v2.appspot.com',
   messagingSenderId: '926979139472',
-  appId: '1:926979139472:web:baa04d68db000aa6477515',
-  measurementId: 'G-81ZM9D8RDF',
+  appId: '1:926979139472:web:90d2017dc6e09286477515',
+  measurementId: 'G-GXZBR1DJ7E',
 };
+
 
 initializeApp(firebaseConfig);
 
