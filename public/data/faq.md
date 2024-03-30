@@ -1,8 +1,8 @@
 ## General
 
-We know that you could have some questions so we prepared for you a list of **FAQs** that may can help you 💪
+We know that you could have some questions so we prepared for you a list of **FAQs** that may help you 💪
 
-Anyway we are alway open to solve any other doubt you could have, feel free to [contact us](mailto:pisagdg+devfest@gmail.com) in that case.
+If you have any doubts left, please do not hesitate to [contact us](mailto:pisagdg+devfest@gmail.com).
 
 ### How do I get there?
 
@@ -14,7 +14,7 @@ Yes, participation to the DevFest is **free**, but registration is **mandatory**
 
 ### I can't attend the DevFest, what should I do?
 
-If you **can't attend** we kindly ask you to **cancel your order** via the GDG platform, or either send us an email (we can do it for you). The event is currently Sold-out and we have a lot of people in the waiting list. You will free-up a spot for someone else :)
+If you **can't attend** we kindly ask you to **cancel your order** via the ticketing platform, or either send us an email (we can do it for you). The event is typically Sold-out and we have a lot of people in the waiting list. You will free-up a spot for someone else :)
 
 ### Do I need to print my tickets?
 
@@ -32,17 +32,13 @@ Sadly this is not possible. If you're not planning to come, please cancel your t
 
 Yes, you can always leave the conference and come back whenever you want. To enter the venue you anyway always need your **badge** (you will get it at the entrance).
 
-### I have the workshop ticket but I don't have the DevFest ticket? Can I participate to the workshop only?
+### Is a ticket issued my Meetup valid?
 
-No, as written in the workshop description, you need a DevFest ticket to join all the sessions (either talks or workshop).
+No, only the tickets issued from Eventbrite are valid. You can take one from this [platform](https://devfestpisa2024.eventbrite.com).
 
-### I registered on meetup.com. Is that valid as a ticket?
+### What should I bring at the conference?
 
-No, the only valid tickets for eventbrite are the one [available on the GDG platform](TODO).
-
-### What should I carry on to the conference?
-
-**Your ticket**. That's the only necessary thing you shouldn't forget. If you're attending one of our Workshops, the speakers will let you know if you need to carry on your laptop or not.
+**Your ticket**. That's the only necessary thing you shouldn't forget.
 
 ### Will I get food/lunch at the DevFest?
 
@@ -50,7 +46,7 @@ Yes, we are offering a **small lunch** (beware just little food and refreshments
 
 ### Are you giving away any gadgets/awards?
 
-Yes, we have some swags for all the participants + some giveaways to give as a raffle 🎁. All the details at the opening ceremony.
+Yes, we have some swags for all the participants + some giveaways to give as a raffle 🎁. All the details will be shared during the opening ceremony.
 
 ### Are the sessions recorded?
 
