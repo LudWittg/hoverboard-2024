@@ -62,7 +62,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://2024.devfest.gdgpisa.it/team",
+          "url": "https://devfest.gdgpisa.it/team",
           "newTab": true
         }
       ]
@@ -126,7 +126,7 @@
       "featuredSessions": {
         "description": "After last year's success, GDG Pisa is happy to announce that DevFest Pisa is coming back in town, with a summer edition! You can enjoy a one-day conference all about Android, Web, Cloud and Google technologies in the heart of Tuscany.",
         "label": "READ THE FULL ANNOUNCEMENT",
-        "link": "https://2024.devfest.gdgpisa.it/blog/c4p"
+        "link": "https://devfest.gdgpisa.it/blog/c4p"
       },
       "howItWas": {
         "description": "Last year's conference was a blast! Check out the video recap and make sure you don't miss it next year!",
@@ -217,7 +217,7 @@
     "description": "After two amazing DevFest Pisa, we're looking forward to a more amazing DevFest in 2024!",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://photos.app.goo.gl/cRcVqhNuxt4zwDVQ9"
+      "link": "https://photos.app.goo.gl/J8aFFg8jsqwWGDzKA"
     }
   },
   "mapBlock": {

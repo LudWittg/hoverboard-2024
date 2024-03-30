@@ -32,7 +32,7 @@ Sadly this is not possible. If you're not planning to come, please cancel your t
 
 Yes, you can always leave the conference and come back whenever you want. To enter the venue you anyway always need your **badge** (you will get it at the entrance).
 
-### Is a ticket issued my Meetup valid?
+### Is a ticket issued by Meetup valid?
 
 No, only the tickets issued from Eventbrite are valid. You can take one from this [platform](https://devfestpisa2024.eventbrite.com).
 
