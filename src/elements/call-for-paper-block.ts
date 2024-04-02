@@ -41,21 +41,20 @@ export class CallForPaperBlock extends PolymerElement {
         }
       </style>
 
-      <!-- TODO
       <div class="container container-narrow">
-        <h1 class="container-title">It's a Wrap 💚</h1>
+        <h1 class="container-title">Call for Paper is open! 🚀</h1>
         <p>
-          DevFest Pisa 2023 is over, but you can relieve the best moments of the conference with our
-          videos and photos:
+          Our <b>Call for Paper</b> for the 2024 edition is now open! Share your ideas
+          with us by submitting a talk. It is time to shine! ✨
         </p>
         <div class="action-buttons" layout horizontal wrap>
-          <a href="/blog/its-a-wrap">
+          <a href="https://sessionize.com/gdg-devfest-pisa-2024">
             <paper-button primary invert class="icon-right">
-              <span class="cta-label">Check the recap blogpost</span>
+              <span class="cta-label">Submit your talk</span>
             </paper-button>
           </a>
         </div>
-      </div> -->
+      </div> 
     `;
   }
 }
