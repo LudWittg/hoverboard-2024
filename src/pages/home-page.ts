@@ -54,11 +54,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         .hero-logo {
           --lazy-image-width: 100%;
-          --lazy-image-height: 76px;
+          --lazy-image-height: 228px;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
           max-width: 240px;
-          max-height: 76px;
+          max-height: 228px;
         }
 
         .info-items {
