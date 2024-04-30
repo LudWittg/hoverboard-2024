@@ -42,7 +42,7 @@ export class CallForPaperBlock extends PolymerElement {
       </style>
 
       <div class="container container-narrow">
-        <h1 class="container-title">Call for Paper is open! 🚀</h1>
+        <h1 class="container-title">Call for Paper has now ended! 📪</h1>
         <p>
           Our <b>Call for Paper</b> for the 2024 edition is now closed! 
           We would like to thank all the folks participating! 🙏        
