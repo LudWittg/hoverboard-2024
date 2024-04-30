@@ -44,15 +44,13 @@ export class CallForPaperBlock extends PolymerElement {
       <div class="container container-narrow">
         <h1 class="container-title">Call for Paper is open! 🚀</h1>
         <p>
-          Our <b>Call for Paper</b> for the 2024 edition is now open! Share your ideas
-          with us by submitting a talk. It is time to shine! ✨
+          Our <b>Call for Paper</b> for the 2024 edition is now closed! 
+          We would like to thank all the folks participating! 🙏        
         </p>
         <div class="action-buttons" layout horizontal wrap>
-          <a href="https://sessionize.com/gdg-devfest-pisa-2024">
-            <paper-button primary invert class="icon-right">
+            <paper-button primary invert disabled class="icon-right">
               <span class="cta-label">Submit your talk</span>
             </paper-button>
-          </a>
         </div>
       </div> 
     `;
