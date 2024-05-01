@@ -1,29 +1,30 @@
-Hi everyone,
+Hello everyone,
 
-We know you've been waiting for this announcement for so long, and today we're excited to unveil some of our **speakers** for the DevFest Pisa 2024!
-We really can't wait to share with you the **full agenda**, but we're still finalizing some last bits.
+We know you've been eagerly awaiting this announcement, and today, we're thrilled to unveil **10 amazing speakers** 🎉 
+for the upcoming DevFest Pisa 2024!
 
-However, today we're excited to announce a first round of **10 speakers** 🎉 that will join us on stage on June 1st!
-As mentioned, the agenda is not finalized yet and we'll share more content in the coming days, so **stay tuned!**.
+We can't wait to share the **full agenda** with you, but we're still finalizing some last details, so please 
+**stay tuned**!
 
 ## The first speakers 🎤
 
-We are really happy to welcome on stage those speakers and sessions:
+We're happy to welcome on stage the following speakers and sessions:
 
-- **Teresa Wu**, GDE Flutter/Dart, VP Engineer @ J.P. Morgan - Google Gemini 101: Unleashing the Power of AI in Your Front-End Projects
-- **Aldo D'Aquino**, Senior Infrastructure Engineer @ Bending Spoons - Burnout is not a company issue and that’s great!
-- **Gregorio Palamà**, Devops & Senior Cloud Engineer @ Lutech - The good, the bad, the native
-- **Hannah Olukoye**, GDE Android - How to Make your Abstract Stand out
-- **Domenico Rotolo**, Unity Developer @ Gaggle Studios - Analizziamo un virus! (non provateci a casa)
-- **Luca Corbucci**, Ph.D. student @ Unipi - Is your model private?
-- **Sumaiya Nalukwago**, IT Professional - Developing Soft Skills for a sustainable Tech Career
-- **Federica Trevisan**, Data Scientist - Eight Years of Budgeting: Lessons Learned - A Complete Data Project
-- **Pietro Tempesti** & **Dario Frongillo**, Software Engineer @ NTT DATA Italy & Expert Solution Architect @ NTT DATA - Carbon Aware Computing: Contribuisci attivamente nel settore IT a favore di un mondo più sostenibile
-- **Lorenzo Pieri**, Full Stack Software Engineer @ Birdie - Sustainable me. A tale of good design.
+- **Teresa Wu**, GDE Flutter/Dart, VP Engineer @ J.P. Morgan - *Google Gemini 101: Unleashing the Power of AI in Your Front-End Projects*
+- **Aldo D'Aquino**, Senior Infrastructure Engineer @ Bending Spoons - *Burnout is not a company issue and that’s great!*
+- **Gregorio Palamà**, Devops & Senior Cloud Engineer @ Lutech - *The good, the bad, the native*
+- **Hannah Olukoye**, GDE Android - *How to Make your Abstract Stand out*
+- **Domenico Rotolo**, Unity Developer @ Gaggle Studios - *Analizziamo un virus! (non provateci a casa)*
+- **Luca Corbucci**, Ph.D. student @ Unipi - *Is your model private?*
+- **Sumaiya Nalukwago**, IT Professional - *Developing Soft Skills for a sustainable Tech Career*
+- **Federica Trevisan**, Data Scientist - *Eight Years of Budgeting: Lessons Learned - A Complete Data Project*
+- **Pietro Tempesti** & **Dario Frongillo**, Software Engineer @ NTT DATA Italy & Expert Solution Architect @ NTT DATA - *Carbon Aware Computing: Contribuisci attivamente nel settore IT a favore di un mondo più sostenibile*
+- **Lorenzo Pieri**, Full Stack Software Engineer @ Birdie - *Sustainable me. A tale of good design.*
 
 <!-- You can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages. -->
 
-Finally, if you love what we're doing share this amazing lineup with your friends/colleagues ❤️ and don't forget to **grab your ticket**:
+Finally, if you love what we're doing, please share this amazing lineup with your friends and colleagues ❤️.
+Don't forget to **get your ticke for free**:
 
 <br/>
 <div style="text-align: center;">
@@ -33,8 +34,8 @@ Finally, if you love what we're doing share this amazing lineup with your friend
 </div>
 <br/>
 
-Any questions? Email us at [pisagdg@gmail.com](mailto:pisagdg+devfest@gmail.com) or reach out on our social channels!
+Any questions? Email us at [pisagdg@gmail.com](mailto:pisagdg+devfest@gmail.com) or reach out on our social media channels!
 
-Looking forward to see you on April 1st!
+Looking forward to see you on June 1st! 🏖️
 
 DevFest Pisa Orga team.
