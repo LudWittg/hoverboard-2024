@@ -171,13 +171,13 @@ const ROUTES: Route[] = [
       await import('./pages/location-page.js');
     },
   },
-  // {
-  //   path: '/map',
-  //   component: 'map-page',
-  //   action: async () => {
-  //     await import('./pages/map-page.js');
-  //   },
-  // },
+  {
+    path: '/map',
+    component: 'map-page',
+    action: async () => {
+      await import('./pages/map-page.js');
+    },
+  },
   {
     path: '(.*)',
     component: 'not-found-page',
