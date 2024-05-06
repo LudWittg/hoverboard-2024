@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import express from 'express';
+import fetch from 'node-fetch';
 import { getFirestore } from 'firebase-admin/firestore';
 import * as functions from 'firebase-functions';
 import * as cheerio from 'cheerio';
@@ -75,13 +76,6 @@ const staticHtml = `
     <h1>GDG Pisa DevFest 2024</h1>
   </body>
 </html>
-`;
-
-
-// @cortinico: Sadly I wasn't able to find an easy way to access hosting files.
-// So here I'm just hardcoding the content of `/dist/index.html`.
-const userFacingHtml = `
-<!doctype html><html itemscope="" itemtype="http://schema.org/Event" lang="en" prefix="og: http://ogp.me/ns#"><head><base href="/"><meta charset="utf-8"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes" name="viewport"><meta content="Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!" name="description"><meta content="event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev" name="keywords"><meta content="GDG Pisa" name="author"><meta content="Project Hoverboard" name="generator"><title>GDG Pisa DevFest 2024</title><meta content="https://devfest.gdgpisa.it/" name="config-url"><meta content="/" name="config-basepath"><meta content="AIzaSyCJqlRVGIe6bfU43rga3cnK7tSXXwc7JD8" name="config-google-maps-api-key"><link href="https://devfest.gdgpisa.it/" rel="canonical"><link href="images/favicon.ico" rel="icon"><meta content="#c62828" name="theme-color"><link href="manifest.webmanifest" rel="manifest"><meta content="yes" name="mobile-web-app-capable"><meta content="GDG Pisa DevFest 2024" name="application-name"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="GDG Pisa DevFest 2024" name="apple-mobile-web-app-title"><link href="images/manifest/icon-48.png" rel="apple-touch-icon"><link href="images/manifest/icon-72.png" rel="apple-touch-icon" sizes="72x72"><link href="images/manifest/icon-96.png" rel="apple-touch-icon" sizes="96x96"><link href="images/manifest/icon-144.png" rel="apple-touch-icon" sizes="144x144"><link href="images/manifest/icon-192.png" rel="apple-touch-icon" sizes="192x192"><meta content="images/manifest/icon-144.png" name="msapplication-TileImage"><meta content="#00aba9" name="msapplication-TileColor"><meta content="no" name="msapplication-tap-highlight"><meta content="GDG Pisa DevFest 2024" property="og:title"><meta content="GDG Pisa DevFest 2024" property="og:site_name"><meta content="website" property="og:type"><meta content="https://devfest.gdgpisa.it/" property="og:url"><meta content="Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!" property="og:description"><meta content="https://devfest.gdgpisa.it//images/social-share.jpg" property="og:image"><meta content="image/jpeg" property="og:image:type"><meta property="og:locale" content="en_US"><meta content="summary_large_image" name="twitter:card"><meta content="@gdgpisa" name="twitter:creator"><meta content="GDG Pisa DevFest 2024" name="twitter:title"><meta content="Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!" name="twitter:description"><meta content="https://devfest.gdgpisa.it//images/social-share.jpg" name="twitter:image"><meta name="twitter:label1" value="Location"><meta name="twitter:data1" value="Polo Fibonacci"><meta name="twitter:label2" value="Date"><meta name="twitter:data2" value="June 1st 2024"><link href="https://fonts.googleapis.com" rel="preconnect"><link href="https://firestore.googleapis.com" rel="preconnect"><link href="https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en" rel="stylesheet"><script>window.process={env:{NODE_ENV:"production"}},window.Polymer={rootPath:"/"},function(){var e,t,n,i,o={passive:!0,capture:!0},r=new Date,a=function(){i=[],t=-1,e=null,u(addEventListener)},c=function(i,o){e||(e=o,t=i,n=new Date,u(removeEventListener),s())},s=function(){if(t>=0&&t<n-r){var o={entryType:"first-input",name:e.type,target:e.target,cancelable:e.cancelable,startTime:e.timeStamp,processingStart:e.timeStamp+t};i.forEach((function(e){e(o)})),i=[]}},f=function(e){if(e.cancelable){var t=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,t){var n=function(){c(e,t),r()},i=function(){r()},r=function(){removeEventListener("pointerup",n,o),removeEventListener("pointercancel",i,o)};addEventListener("pointerup",n,o),addEventListener("pointercancel",i,o)}(t,e):c(t,e)}},u=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach((function(t){return e(t,f,o)}))},p="hidden"===document.visibilityState?0:1/0;addEventListener("visibilitychange",(function e(t){"hidden"===document.visibilityState&&(p=t.timeStamp,removeEventListener("visibilitychange",e,!0))}),!0),a(),self.webVitals={firstInputPolyfill:function(e){i.push(e),s()},resetFirstInputPolyfill:a,get firstHiddenTime(){return p}}}(),window.firebase={initializeApp:e=>{window.firebaseConfig=e,delete window.firebase}}</script><script src="/__/firebase/init.js"></script><style>body,html{min-height:100%;height:100%}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-size:16px;line-height:1.5}*,:after,:before{box-sizing:border-box;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}hoverboard-app[unresolved]{padding:0 16px;display:block;font-weight:600;color:#202020;overflow:visible;display:flex;align-items:center;vertical-align:middle;height:100%;justify-content:center;font-size:2rem}</style></head><body><hoverboard-app unresolved="">GDG Pisa DevFest 2024</hoverboard-app><noscript>Please enable JavaScript to view this website.</noscript><script type="module" src="./app-install-a4aed3da.js"></script><script type="module" src="./service-worker-registration-f06be5f7.js"></script><script type="module" src="./hoverboard-app-ae8219d5.js"></script></body></html>
 `;
 
 /**
@@ -232,8 +226,18 @@ app.get('*', async (req, res) => {
 
     res.send($.html());
   } else {
-    // Here we return the minified HTML, as it will take care of the routing users that don't have a PWA installed.
-    res.send(userFacingHtml);
+    try {
+      const indexHtmlResponse = await fetch('https://devfest.gdgpisa.it/index.html');
+      if (!indexHtmlResponse.ok) {
+        throw new Error('Failed to fetch index.html from devfest.gdgpisa.it');
+      }
+      const indexHtml = await indexHtmlResponse.text();
+      res.setHeader('Content-Type', 'text/html');
+      res.status(200).send(indexHtml);
+    } catch (error) {
+      console.error('Error fetching index.html:', error);
+      res.status(500).send('Internal Server Error');
+    }
   }
 });
 
