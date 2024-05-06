@@ -3,7 +3,6 @@
 import express from 'express';
 import { getFirestore } from 'firebase-admin/firestore';
 import * as functions from 'firebase-functions';
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 
 const app = express();
