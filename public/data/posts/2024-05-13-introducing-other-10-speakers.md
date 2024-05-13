@@ -1,7 +1,6 @@
-🌟 Exciting update: more speakers announced for the DevFest Pisa 2024! 🌟
+## More speakers announced for the DevFest Pisa 2024! 🌟
 
 We are thrilled to announce ten additional speakers who will be joining us.
-Get ready for an enriching experience filled with new ideas and insights.
 
 We can't wait to share the **full agenda** with you, but we're still finalizing some last details, so please **stay tuned**! 😎
 
@@ -20,7 +19,7 @@ We can't wait to share the **full agenda** with you, but we're still finalizing 
 - **Giovanni Bartolomeo**, Researcher and Ph.D. Student @ Technical University of Munich - *Inside the Whale's Mouth: A Deep Dive into a Container*
 
 
-Finally, if you love what we're doing, please share this amazing lineup with your friends and colleagues ❤️. Don't forget to **get your ticke for free**:
+Finally, if you love what we're doing, please share this amazing lineup with your friends and colleagues ❤️. Don't forget to **get your ticke for free** clicking the button below.
 
 <br/>
 <div style="text-align: center;">
