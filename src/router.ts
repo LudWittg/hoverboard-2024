@@ -105,25 +105,25 @@ const ROUTES: Route[] = [
       await import('./pages/session-page.js');
     },
   },
-  // {
-  //   path: '/speakers',
-  //   children: [
-  //     {
-  //       path: '',
-  //       component: 'speakers-page',
-  //       action: async () => {
-  //         await import('./pages/speakers-page.js');
-  //       },
-  //     },
-  //     {
-  //       path: '/:id',
-  //       component: 'speaker-page',
-  //       action: async () => {
-  //         await import('./pages/speaker-page.js');
-  //       },
-  //     },
-  //   ],
-  // },
+  {
+    path: '/speakers',
+    children: [
+      {
+        path: '',
+        component: 'speakers-page',
+        action: async () => {
+          await import('./pages/speakers-page.js');
+        },
+      },
+      {
+        path: '/:id',
+        component: 'speaker-page',
+        action: async () => {
+          await import('./pages/speaker-page.js');
+        },
+      },
+    ],
+  },
   // {
   //   path: '/previous-speakers',
   //   children: [
